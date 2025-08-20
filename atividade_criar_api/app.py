@@ -1,3 +1,9 @@
+#Integrantes:
+#João Manoel Lelis Oliveira RA: 2401807
+#Murilo Gomes Sardinha RA: 2401763
+#Vinicius Chamone Guedes Janini RA: 2401580
+
+
 from flask import Flask, jsonify, request
 
 meuApp = Flask(__name__)
@@ -58,3 +64,4 @@ def delete_user(user_id):
 
 if __name__ == '__main__':
     meuApp.run(debug=True)
+
